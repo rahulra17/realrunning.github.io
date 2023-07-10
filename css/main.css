@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter One&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-size: 1.15rem;
+
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Lato;
+}
+
+.centerlist {
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+    text-align: center;
+}
+
+a{
+    color: lightgray;
+}
+
+/*taken from w3Schools*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1% 3.5%;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #CC5500;
+  color: white;
+}
+
+.Body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+a:hover{
+    color:white;
+}
+
+.works{
+    text-align:left;
+}
+
+.musclehead {
+    font-family: Carter One;
+    text-shadow: 2px 2px gray;
+}
